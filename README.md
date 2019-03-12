@@ -1,4 +1,4 @@
-# Warpwire Blackboard Plugin: Configuration XML
+# Warpwire's Blackboard Mashup Plugin: Configuration XML
 #### This repository contains the XML file for configuration of Warpwire's Blackboard Mashup Plugin. The rest of the configuration process is documented [here](https://erin-homepage.testing.warpwire.net/support/warpwire-in-blackboard/add-warpwire-mashup/).
 
 You'll need to edit the XML file and replace the following:
