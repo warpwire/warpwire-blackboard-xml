@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basic_lti_link xmlns="http://www.imsglobal.org/xsd/imsbasiclti_v1p0"
+    xmlns:lticm ="http://www.imsglobal.org/xsd/imslticm_v1p0"
+    xmlns:lticp ="http://www.imsglobal.org/xsd/imslticp_v1p0"
+    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation = "http://www.imsglobal.org/xsd/imsbasiclti_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imsbasiclti_v1p0.xsd
+                          http://www.imsglobal.org/xsd/imslticm_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticm_v1p0.xsd
+                          http://www.imsglobal.org/xsd/imslticp_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticp_v1p0.xsd">
+	<title>Warpwire Video</title>
+	<description>Upload, create, and embed video, audio, and images files provided by Warpwire.</description>
+	<launch_url>https://testdrive.warpwire.com/api/ltix/</launch_url>
+	<secure_launch_url />
+	<icon>https://www.warpwire.com/media/image/icon-warpwire-circle-black-50x50.png</icon>
+	<secure_icon>https://www.warpwire.com/media/image/icon-warpwire-circle-black-50x50.png</secure_icon>
+	<custom />
+	<extensions platform="learn">
+		<lticm:property name="guid">[KEY GOES HERE]</lticm:property>				
+		<lticm:property name="secret">[SECRET GOES HERE]</lticm:property>
+		<lticm:property name="signaturemethod">SHA256</lticm:property>
+		<lticm:property name="administrator">false</lticm:property>
+		<lticm:property name="avatar">false</lticm:property>
+		<lticm:property name="contextid">true</lticm:property>
+		<lticm:property name="contextidtype">C</lticm:property>
+		<lticm:property name="contextsourcedid">true</lticm:property>
+		<lticm:property name="contexttitle">true</lticm:property>
+		<lticm:property name="css" />
+		<lticm:property name="email">M</lticm:property>
+		<lticm:property name="ext_memberships">O</lticm:property>33
+		<lticm:property name="ext_memberships_limit">false</lticm:property>
+		<lticm:property name="ext_memberships_groups">false</lticm:property>
+		<lticm:property name="ext_memberships_groupnames" />
+		<lticm:property name="ext_outcomes">N</lticm:property>
+		<lticm:property name="ext_outcomes_column">false</lticm:property>
+		<lticm:property name="ext_outcomes_format">P</lticm:property>
+		<lticm:property name="ext_outcomes_points">100</lticm:property>
+		<lticm:property name="ext_outcomes_scorable">false</lticm:property>
+		<lticm:property name="ext_outcomes_visible">false</lticm:property>
+		<lticm:property name="ext_setting">N</lticm:property>
+    <lticm:property name="openin">FNB</lticm:property>
+    <lticm:property name="roles">true</lticm:property>
+    <lticm:property name="role.P">IDTM</lticm:property>
+    <lticm:property name="role.S">LU</lticm:property>
+		<lticm:property name="ext_iroles">true</lticm:property>
+		<lticm:property name="ext_croles">false</lticm:property>
+		<lticm:property name="splash">false</lticm:property>
+		<lticm:property name="splashtext" />
+		<lticm:property name="userid">M</lticm:property>
+		<lticm:property name="useridtype">U</lticm:property>
+		<lticm:property name="username">M</lticm:property>
+		<lticm:property name="usersourcedid">true</lticm:property>
+		<lticm:property name="windowname">_self</lticm:property>
+		<lticm:property name="message.contentitem">true</lticm:property>
+		<lticm:property name="message.config">false</lticm:property>
+		<lticm:property name="message.dashboard">true</lticm:property>
+		<lticm:property name="service.outcomesv1">false</lticm:property>
+		<lticm:property name="service.profile">false</lticm:property>
+		<lticm:property name="service.setting">false</lticm:property>
+  </extensions>
+</basic_lti_link>
