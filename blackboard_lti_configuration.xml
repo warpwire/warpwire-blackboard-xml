@@ -8,7 +8,7 @@
                           http://www.imsglobal.org/xsd/imslticp_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticp_v1p0.xsd">
 	<title>Warpwire Video</title>
 	<description>Upload, create, and embed video, audio, and images files provided by Warpwire.</description>
-	<launch_url>https://testdrive.warpwire.com/api/ltix/</launch_url>
+	<launch_url>https://[YOUR URL].warpwire.com/api/ltix/</launch_url>
 	<secure_launch_url />
 	<icon>https://www.warpwire.com/media/image/icon-warpwire-circle-black-50x50.png</icon>
 	<secure_icon>https://www.warpwire.com/media/image/icon-warpwire-circle-black-50x50.png</secure_icon>
